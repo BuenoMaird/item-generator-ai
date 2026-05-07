@@ -1,1 +1,6 @@
-node-express/.env
+.env
+node_modules/
+dist/
+cache/
+public/images/
+.DS_Store
