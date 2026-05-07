@@ -14,7 +14,7 @@ const ROOT = path.resolve(__dirname, "..");
 const app = express();
 
 // Read PORT from the environment — required for Railway/Vercel
-const port = parseInt(process.env["PORT"] ?? "3000", 10);
+const port = parseInt(process.env["PORT"] ?? "6060", 10);
 
 // In-memory store for background generation jobs
 type JobState =
